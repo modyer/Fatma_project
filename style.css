@@ -1,0 +1,49 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f4f6f8;
+  text-align: center;
+  margin-top: 50px;
+  direction: rtl;
+}
+
+#login-form, #dashboard {
+  background: white;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e9ecef;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
